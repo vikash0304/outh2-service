@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ---- Base Reset ---- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+}
+
+/* ---- Card ---- */
+.home-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 40px 32px;
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.home-card h1 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 8px;
+}
+
+.home-card h1 span {
+    color: #667eea;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #718096;
+    margin-bottom: 28px;
+}
+
+/* ---- Logout Button ---- */
+.btn-logout {
+    padding: 11px 32px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.btn-logout:hover {
+    opacity: 0.9;
+}
